@@ -1,6 +1,7 @@
 import turtle
 
 sat = turtle.Turtle()
+sat.speed(0)
 lst = ["green","yellow","brown","orange","red"]
 for i in range(0,200):
     sat.color(lst[i%5])
