@@ -1,9 +1,10 @@
 import turtle
 
 sat = turtle.Turtle()
+sat.penup()
+sat.goto(0,200)
+sat.pendown()
 
-sow = turtle.Turtle()
-sow.speed(0)
 sat.speed(0)
 
 

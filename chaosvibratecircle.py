@@ -14,9 +14,9 @@ b = 0
 while True:
     sat.forward(a)
     sat.right(b)
-    a+= 3
-    b+=1
-    if b == 360:
+    a+= 2
+    b+=2
+    if b == 220:
         break
 
 sat.hideturtle()
